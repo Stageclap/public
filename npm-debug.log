@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'n' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'n', null ]
+5 verbose cache add name=undefined spec="n" args=["n",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'n',
+6 verbose parsed url   path: 'n',
+6 verbose parsed url   href: 'n' }
+7 silly lockFile d1854cae-n n
+8 verbose lock n /Users/Matt/.npm/d1854cae-n.lock
+9 silly lockFile d1854cae-n n
+10 silly lockFile d1854cae-n n
+11 verbose addNamed [ 'n', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6b58d7dc-n n@
+14 verbose lock n@ /Users/Matt/.npm/6b58d7dc-n.lock
+15 silly addNameRange { name: 'n', range: '*', hasData: false }
+16 verbose request where is /n
+17 verbose request registry http://registry.npmjs.org/
+18 verbose request id 1e3ed73acc2352e8
+19 verbose url raw /n
+20 verbose url resolving [ 'http://registry.npmjs.org/', './n' ]
+21 verbose url resolved http://registry.npmjs.org/n
+22 verbose request where is http://registry.npmjs.org/n
+23 info trying registry request attempt 1 at 14:08:22
+24 http GET http://registry.npmjs.org/n
+25 info retry will retry, error on last attempt: Error: Invalid protocol: localhost:
+26 info trying registry request attempt 2 at 14:08:32
+27 http GET http://registry.npmjs.org/n
+28 info retry will retry, error on last attempt: Error: Invalid protocol: localhost:
+29 info trying registry request attempt 3 at 14:09:32
+30 http GET http://registry.npmjs.org/n
+31 silly lockFile 6b58d7dc-n n@
+32 silly lockFile 6b58d7dc-n n@
+33 error Error: Invalid protocol: localhost:
+33 error     at Request.self._buildRequest (/usr/local/lib/node_modules/npm/node_modules/request/request.js:460:53)
+33 error     at Request.init (/usr/local/lib/node_modules/npm/node_modules/request/request.js:637:10)
+33 error     at new Request (/usr/local/lib/node_modules/npm/node_modules/request/request.js:131:8)
+33 error     at request (/usr/local/lib/node_modules/npm/node_modules/request/index.js:47:10)
+33 error     at RegClient.makeRequest (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:224:13)
+33 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:132:17)
+33 error     at null._onTimeout (/usr/local/lib/node_modules/npm/node_modules/retry/lib/retry_operation.js:32:10)
+33 error     at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+34 error If you need help, you may report this *entire* log,
+34 error including the npm and node versions, at:
+34 error     <http://github.com/npm/npm/issues>
+35 error System Darwin 14.0.0
+36 error command "node" "/usr/local/bin/npm" "install" "-g" "n"
+37 error cwd /Users/Matt/Documents/Stageclap/public
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 verbose exit [ 1, true ]
