@@ -5782,4 +5782,15 @@ button.close {
     display: none !important;
   }
 }
+
+/* BER 5/1/15:  add footer to main css file since all pages will display footer*/
+footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  font-size:        90%;
+  clear:            right;
+}
 /*# sourceMappingURL=bootstrap.css.map */
