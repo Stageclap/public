@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="stageclapApp">
+<head>
+	<meta charset="utf-8">
+	<title>Stageclap</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+	<!-- required for repsonsive design as per Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="app/js/app.js"></script>
+	<script src="app/js/controllers.js"></script>
+</head>
+<body>
+
+	<div class="view-container">
+    	<div ng-view class="view-frame"></div>
+  	</div>
+
+</body>
+
+<!-- BER 5/1/15:  added footer to displayed on every page -->
+<footer>
+      &copy; 2015, Stageclap, Inc.
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+ </footer>
+</html>
